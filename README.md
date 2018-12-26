@@ -6,3 +6,11 @@ management.
 > The project in this case beeing my life!
 
 Let us see how far this can go :smile:.
+
+## Task list
+
+- [ ] Get better at git < doing 
+- [ ] Monitoring rezo rennes
+- [ ] Presentation RNN for music generation 
+- [ ] Sport
+- [ ] Check nothing is missing on esp32 project
