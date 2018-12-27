@@ -32,3 +32,32 @@ ankor so try using HEAD instead for more flexibility.
 ```bash 
 git checkout HEAD^
 ```
+
+## Additional information on `^`
+
+Like the ~ modifier, the ^ modifier also accepts an optional number after it.
+
+Rather than specifying the number of generations to go back (what ~ takes), the 
+modifier on ^ specifies which parent reference to follow from a merge commit. Remember 
+that merge commits have multiple parents, so the path to choose is ambiguous.
+
+Git will normally follow the "first" parent upwards from a merge commit, but specifying 
+a number with ^ changes this default behavior.
+
+Example : 
+```
+	*
+	|
+    C1	*--------------* C0 
+	|	       |
+	|              |
+	------*--------
+	      |
+	     HEAD
+```
+
+If I was to `git chekout HEAD^` which branch would be my HEAD's parent, C0/1 ?
+To not give any ambiguity I can select it expliciatly `git checkout HEAD^0`.
+
+> P.S : You can stack `~` and `^` together to make sure nobody else understands what 
+you are doing. 
