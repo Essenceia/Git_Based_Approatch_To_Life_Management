@@ -9,8 +9,8 @@ Let us see how far this can go :smile:.
 
 ## Task list
 
-- [ ] Get better at git < doing 
+- [x] Get better at git  
 - [ ] Monitoring rezo rennes
-- [ ] Presentation RNN for music generation 
+- [ ] Presentation RNN for music generation <-- doing 
 - [ ] Sport
 - [ ] Check nothing is missing on esp32 project
