@@ -32,8 +32,6 @@ ankor so try using HEAD instead for more flexibility.
 ```bash 
 git checkout HEAD^
 ```
-<<<<<<< HEAD
-
 ## Additional information on `^`
 
 Like the ~ modifier, the ^ modifier also accepts an optional number after it.
@@ -61,6 +59,4 @@ If I was to `git chekout HEAD^` which branch would be my HEAD's parent, C0/1 ?
 To not give any ambiguity I can select it expliciatly `git checkout HEAD^0`.
 
 > P.S : You can stack `~` and `^` together to make sure nobody else understands what 
-you are doing. 
-=======
->>>>>>> 670f394306ff3c6f26e39d7abe740bdd2d7cce94
+you are doing.
