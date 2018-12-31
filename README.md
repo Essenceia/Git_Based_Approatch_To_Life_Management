@@ -10,7 +10,9 @@ Let us see how far this can go :smile:.
 ## Task list
 
 - [x] Get better at git  
+- [ ] Bonding with my father : build an LFS tomorow
 - [ ] Monitoring rezo rennes
-- [ ] Presentation RNN for music generation <-- doing 
-- [ ] Sport
+- [x] Presentation RNN for music generation ( paused ) 
+- [x] Sport
 - [ ] Check nothing is missing on esp32 project
+- [ ] Contribute to linux : syntax check 
