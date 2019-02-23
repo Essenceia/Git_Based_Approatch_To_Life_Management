@@ -1,5 +1,9 @@
 # Motivation for FO-WLP
 
+ASE senior fellow Bill Chen said ASE’s original motivation to license fan-out, and then later to work on its own implementation, was to increase the number of solder balls that 
+could be placed under the increasingly tiny die. “The original fan-out motivation was to accommodate the die shrinks. Then, being creative engineers, we realized we can do a lot of 
+other things with it, and create very thin packages,” he said.
+
 ### From a press release by SBWire 02/19/2019
 
 > The innovation in the semiconductor packaging technology largely depends on the size 
@@ -38,8 +42,14 @@ performance and cheaper in the long run)
         Built-in back-side protection
         No restriction in bump pitch
 
+“There is a big difference in costs. Fan-out is lower cost than flip chip, which 
+requires an organic substrate. And compared with silicon interposer, there is an even 
+bigger cost difference, though maybe at this point there might be more performance with 
+a silicon interposer,” she said.
+she = Rozalia Beica, CTO at Yole Developpement 
 
 ## Sources 
 
 http://www.digitaljournal.com/pr/4166865
 http://www.3dic.org/FOWLP
+http://www.appliedmaterials.com/nanochip/nanochip-fab-solutions/december-2015/fan-out-is-a-game-changer
