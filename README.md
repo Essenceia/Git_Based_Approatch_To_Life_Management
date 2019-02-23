@@ -15,4 +15,4 @@ Let us see how far this can go :smile:.
 - [x] Presentation RNN for music generation ( paused ) 
 - [x] Sport
 - [ ] Check nothing is missing on esp32 project
-- [ ] Contribute to linux : syntax check 
+- [ ] Contribute to linux : syntax check ( Sparse - a Semantic Parser for C ) 
