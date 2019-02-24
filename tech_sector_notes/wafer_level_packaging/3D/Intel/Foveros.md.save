@@ -1,0 +1,44 @@
+# Foveros ( Greek for fearful, awesome and terrifying)
+
+More diverse applications -> System requirement diversity -> Power, performance, area, 
+ect... optimization needed for better overall performance of chip -> Transisitor 
+diversity -> IC diversity -> let s put them on seperate chips 
+
+Intel s solution to the problem of developing independent chiplets on their own 
+optimal processes and then interconnecting them in a single package to match the 
+functionality of a monolithic SoC.
+
+## Challenge
+
+A major packaging challenge historically has been the bumps/pillar and interconnect 
+among many other. **Data movement** across dies can take up a **large portion of the 
+total 
+package available power**. In fact, the **fine pitch interconnects** from 
+die-to-package 
+are 
+largely **limited by mass reflow** which has prevented them from scaling much in recent 
+nodes. A great property of solder bumps is that there is so much substance there that 
+when it flows, it s able to accommodate all the non-uniformities of the die and the 
+package.
+
+![Bump pillar scaling](https://fuse.wikichip.org/wp-content/uploads/2018/12/die-to-package-bump-scaling-300x231.png)
+
+![Bump pitch trends](https://fuse.wikichip.org/wp-content/uploads/2018/12/iedm-2018-intel-bump-scaling-768x248.png)
+
+This is where the true benefits of Si interposers (2.5D) and die stacking (3D) are 
+realized. Compared to a standard package with a bump pitch of around **110-micron** and 
+yields around **1.7 pJ/bit**, Intelâs side-by-side EMIB (2.5D) solution is around 
+**45-micron pitch** and at around one-sixth the power per bit transferred at **0.30 
+pJ/bit**. 
+
+## Ancestor : Polaris
+
+3D pacakging experimental technology part of the Tera-Scale Computer Research Program, 
+early 2000s.
+
+Polaris stacked a large SRAM die on top of the processor chip in order to achieve a 
+very high memory bandwidth.
+
+## Sources
+
+https://fuse.wikichip.org/news/1910/intel-looks-to-advanced-3d-packaging-for-more-than-moore-to-supplement-10-and-7-nanometer-nodes/

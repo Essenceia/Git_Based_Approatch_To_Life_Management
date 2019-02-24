@@ -10,8 +10,9 @@ Let us see how far this can go :smile:.
 ## Task list
  
 - [ ] Advanced packaging technologies
-- [ ] Sport
+- [x] Sport
 - [ ] Check nothing is missing on esp32 project
+- [ ] What is a "3-issue OoO back-end" ( Neoverse E1 )
 
 ## In the futur ( someday )
 
