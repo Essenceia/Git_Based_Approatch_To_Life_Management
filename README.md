@@ -8,11 +8,12 @@ management.
 Let us see how far this can go :smile:.
 
 ## Task list
-
-- [x] Get better at git  
-- [ ] Bonding with my father : build an LFS tomorow
-- [ ] Monitoring rezo rennes
-- [x] Presentation RNN for music generation ( paused ) 
-- [x] Sport
+ 
+- [ ] Advanced packaging technologies
+- [ ] Sport
 - [ ] Check nothing is missing on esp32 project
+
+## In the futur ( someday )
+
 - [ ] Contribute to linux : syntax check ( Sparse - a Semantic Parser for C ) 
+
