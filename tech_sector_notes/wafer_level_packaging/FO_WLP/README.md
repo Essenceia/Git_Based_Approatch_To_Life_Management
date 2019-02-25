@@ -20,6 +20,14 @@ Rozalia Beica, CTO at Yole Developpement, said TSMC has been telling its supplie
 be ready for volume fan-out processing beginning next year, perhaps in the 
 **100,000** wafers-per-month range.
 
+## Challenges
+
+### IR drop 
+
+High fan-out of the net: Resulting in higher load-cap, or perhaps 
+High routing congestion in a particular area resulting in high coupling capacitance 
+with the neighboring nets.
+
 ## Looking further
 
 How far fan-out packaging will go remains to be seen. But if multiple chips can be 
@@ -33,3 +41,4 @@ This technology can be combined with PoP as in the A10.
 ## Sources 
 
 http://www.appliedmaterials.com/nanochip/nanochip-fab-solutions/december-2015/fan-out-is-a-game-changer
+http://vlsi-soc.blogspot.com/2016/08/ir-drop-analysis.html
