@@ -2,16 +2,22 @@
 
 Instead of having one "big" monolitic chip : break the design up into seperate smaller 
 chips that are to be assembled.
+
 ** Each individual chiplet is not a complete SOC ** 
+For example CPU chiplets contains cache, but lack memory interfaces and external I/O.
 
 ## Agruments in favor
 
 ### Percived adventages
 
 - yield due to smalled individual chiplets
+> + better known KGD ( know good die) testing techniques
 - node diversity possible
+> no need to wait/spend additional ressources on getting the node to manurity 
+> addaptable to demande of device with best suited transistor technology 
 - faster time to market ( re-usablility )
 - cheaper / simpler process 
+
 
 ### Arguments agains current node scalling 
 
